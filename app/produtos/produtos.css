@@ -1,0 +1,26 @@
+.area_produtos{
+
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%; 
+    flex-direction: column;
+    
+
+}
+.area_produtos h1{
+    margin-top: 70px;
+    color: white;
+    font-size: 30px;
+}
+
+.area_cards_prods{
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+  
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

@@ -1,0 +1,7 @@
+- Entre na raiz do Projeto(/app) pelo terminal
+- execute: npm install
+- logo depois de ter instalado todos os pacotes necessários
+execute: npm run dev
+- acesse: localhost:3000/ ou o link disponivel retornado pelo servidor no terminal e utilize as seguintes credenciais:
+username: adm
+password: 123

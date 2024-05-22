@@ -1,0 +1,97 @@
+.area-cad{
+
+    width: 100%; 
+    min-height: 300px; 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+     
+
+}
+.cad_content{
+    width: 100%;
+    max-width: 800px; 
+    background-color: rgb(25, 25, 25);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: column;
+    
+}
+.cad_content h1{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    
+}
+.area_input_img{
+    /* margin: 0 auto; */ 
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid var(--color-site-1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.icon_img_input{
+    height: 100px;
+    cursor: pointer;
+}
+#input_img{
+    display: none;
+}
+.area_inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.input_text{
+    border-radius: 7px;
+    padding: 5px;
+    width: 100%;
+}
+.input_number{
+    border-radius: 7px;
+    padding: 5px;
+
+    width: 45%;
+}
+.btn_sub{
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    border: 2px solid var(--color-site-4);
+    border-radius: 8px;
+    padding: 5px;
+
+    color: white;
+    cursor: pointer;
+    margin-bottom: 25px;
+     
+}
+#icon_remover{
+    pointer-events: none;
+}
+.img_preview{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.area_btns_subms_edit_pr{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.btn_sub:nth-child(1){
+    border: 2px solid red;
+}

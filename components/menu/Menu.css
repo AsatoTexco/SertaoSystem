@@ -1,0 +1,28 @@
+.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    padding: 10px 30px;
+    background-color: #0228735e;
+    backdrop-filter: blur(20px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    z-index: 9;
+}
+.area_links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.area_links a{ 
+    transition: .5s;
+    color: rgb(121, 121, 121);
+}
+.area_links a:hover{
+    color: white;
+} 

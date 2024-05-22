@@ -1,0 +1,38 @@
+.modal_error{
+    position: fixed;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    height: 70px;
+    width:100%;
+    max-width: 800px;
+    border-radius: 10px;
+    z-index: 9;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+.invisible_modal{
+    display: none;
+}
+.modal_error button{
+
+    color: rgb(194, 194, 194);
+    width: 10%;
+    max-width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.modal_error h1 {
+
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
